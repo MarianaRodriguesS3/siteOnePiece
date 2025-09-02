@@ -50,18 +50,19 @@ nav li a:hover {
     border-radius: 5px;
 }
 
-h1,h2[id] {
+h1,
+h2[id] {
     scroll-margin-top: calc(40vh);
 }
 
 .midia {
     display: flex;
-    justify-content: center;
-    align-items: center;
     gap: 30px;
-    flex-wrap: wrap;
-    padding: 20px;
+    padding: 20px 0;
+    transition: transform 0.5s ease-in-out;
+    width: max-content;
 }
+
 
 video {
     width: 560px;
@@ -69,6 +70,44 @@ video {
     border: 2px solid #333;
     border-radius: 8px;
 
+}
+
+.carrossel-wrapper {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin: 40px auto;
+    gap: 20px;
+}
+
+.carrossel-conteudo {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 20px;
+}
+
+.carrossel-container {
+    width: 560px;
+    overflow: hidden;
+}
+
+.botao {
+    background: rgba(216, 216, 216, 0.5);
+    border: none;
+    color: black;
+    font-size: 24px;
+    padding: 10px;
+    cursor: pointer;
+    z-index: 10;
+}
+
+.anterior {
+    margin-right: 100px;
+}
+
+.proximo {
+    margin-left: 100px;
 }
 
 table {
@@ -79,12 +118,15 @@ table {
     margin-bottom: 25px;
 }
 
-table,th,td {
+table,
+th,
+td {
     border: 1px solid #ddd;
     border-radius: 4px;
 }
 
-th,td {
+th,
+td {
     padding: 8px;
     text-align: left;
 }
@@ -166,18 +208,83 @@ form button:hover {
     font-size: 1.1em;
 }
 
-/* Responsividade */
+#comentarios-lista {
+    margin-top: 20px;
+    text-align: left;
+    font-family: sans-serif;
+    width: 95%;
+    max-width: 100%;
+    margin-inline: auto;
+}
+
+.comentario {
+    background-color: #f9f9f9;
+    padding: 10px 15px;
+    border-radius: 6px;
+    margin-bottom: 10px;
+    box-shadow: 0 0 5px rgba(0,0,0,0.05);
+}
+
+.comentario strong {
+    color: #1a1a1a;
+}
+
+.comentario p {
+    margin: 5px 0 0;
+}
+
+
 @media (max-width: 650px) {
-    video {
+
+    body,
+    html {
+        margin: 0;
+        padding: 0;
+        padding-top: 15vh;
+        overflow-x: hidden;
+    }
+
+    .carrossel-wrapper {
+        padding: 20px 0;
+        position: relative;
+    }
+
+    .carrossel-conteudo {
+        position: relative;
         width: 100%;
-        height: auto;
+        max-width: 75vw;
+        margin: 0 auto;
+    }
+
+    .carrossel-container {
+        width: 75vw;
+        max-width: 75vw;
     }
 
     .midia {
-        flex-direction: column;
+        padding: 10px 0;
     }
 
-    body {
-        padding-top: 35vh;
+    .midia video {
+        aspect-ratio: 16 / 9;
+        width: 75vw;
+        max-width: 100%;
+        height: auto;
+        flex-shrink: 0;
+        display: block;
+    }
+
+    .botao {
+        position: absolute;
+        top: 50%;
+        transform: translateY(-50%);
+    }
+
+    .anterior {
+        left: -50px;
+    }
+
+    .proximo {
+        right: -50px;
     }
 }
