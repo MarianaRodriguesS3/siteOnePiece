@@ -49,3 +49,49 @@ nav li a:hover {
     background-color: #333;
     border-radius: 5px;
 }
+
+h1, h2[id] {
+    scroll-margin-top: 40vh;
+    margin: 20px;
+}
+
+table {
+    width: 95%;
+    border-collapse: collapse;
+    margin-left: 35px;
+    margin-top: 25px;
+    margin-bottom: 25px;
+}
+
+table, th, td {
+    border: 1px solid #ddd;
+    border-radius: 4px;
+}
+
+th, td {
+    padding: 8px;
+    text-align: left;
+}
+
+#sobre {
+    background-color: #f0f0f0;
+    border: 1px solid #ccc;
+    border-radius: 8px;
+    padding: 25px 20px;
+    width: 95%;
+    max-width: 100%;
+    margin: 40px auto 60px;
+    font-family: sans-serif;
+    color: #1a1a1a;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.05);
+    text-align: left;
+}
+
+#sobre h1 {
+    margin-bottom: 20px;
+}
+
+#sobre p {
+    line-height: 1.6;
+    font-size: 1.1em;
+}

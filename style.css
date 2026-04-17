@@ -50,9 +50,8 @@ nav li a:hover {
     border-radius: 5px;
 }
 
-h1,
-h2[id] {
-    scroll-margin-top: calc(40vh);
+h1, h2[id] {
+    scroll-margin-top: 40vh;
 }
 
 .midia {
@@ -118,15 +117,12 @@ table {
     margin-bottom: 25px;
 }
 
-table,
-th,
-td {
+table, th, td {
     border: 1px solid #ddd;
     border-radius: 4px;
 }
 
-th,
-td {
+th, td {
     padding: 8px;
     text-align: left;
 }
