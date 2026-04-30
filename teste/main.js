@@ -51,7 +51,7 @@ function renderizarCards(lista) {
 
     card.innerHTML = `
             <div class="card-imagem">
-                <img src="src/imagens/${p.imagem}" alt="${p.nome}" onerror="this.src='https://via.placeholder.com/350x450?text=Pirata'">
+                <img src="imagens/${p.imagem}" alt="${p.nome}" onerror="this.src='https://via.placeholder.com/350x450?text=Pirata'">
             </div>
             <div class="card-info">
                 <h3>${p.nome}</h3>

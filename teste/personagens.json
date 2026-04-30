@@ -4,7 +4,7 @@
     "nome": "Monkey D. Luffy",
     "alcunha": "Chapéu de Palha",
     "recompensa": "3.000.000.000 Berries",
-    "imagem": "luffy.jpg",
+    "imagem": "cartazLuffy.jpg",
     "descricao": "Capitão dos Piratas do Chapéu de Palha e usuário da Gomu Gomu no Mi."
   },
   {
@@ -12,7 +12,7 @@
     "nome": "Roronoa Zoro",
     "alcunha": "Caçador de Piratas",
     "recompensa": "1.111.000.000 Berries",
-    "imagem": "https://cdn.myanimelist.net/images/characters/3/100534.jpg",
+    "imagem": "cartazZoro.jpg",
     "descricao": "O mestre do estilo de três espadas e o primeiro imediato do bando."
   },
   {
@@ -20,7 +20,7 @@
     "nome": "Nami",
     "alcunha": "Gata Ladra",
     "recompensa": "366.000.000 Berries",
-    "imagem": "nami.jpg",
+    "imagem": "cartazNami.jpg",
     "descricao": "A navegadora genial que sonha em desenhar o mapa do mundo inteiro."
   },
   {
@@ -28,7 +28,7 @@
     "nome": "Sanji",
     "alcunha": "Perna Preta",
     "recompensa": "1.032.000.000 Berries",
-    "imagem": "sanji.jpg",
+    "imagem": "cartazSanji.jpg",
     "descricao": "O cozinheiro do bando e mestre do estilo de luta Black Leg."
   },
   {
@@ -36,7 +36,7 @@
     "nome": "Usopp",
     "alcunha": "God Usopp",
     "recompensa": "500.000.000 Berries",
-    "imagem": "usopp.jpg",
+    "imagem": "CartazUsopp.jpg",
     "descricao": "O atirador do bando e mestre em estratégias e invenções inusitadas."
   },
   {
@@ -44,7 +44,7 @@
     "nome": "Tony Tony Chopper",
     "alcunha": "Amante de Algodão-Doce",
     "recompensa": "1.000 Berries",
-    "imagem": "chopper.jpg",
+    "imagem": "cartazChopper.jpg",
     "descricao": "O médico do bando, uma rena que comeu a Hito Hito no Mi."
   },
   {
@@ -52,47 +52,47 @@
     "nome": "Nico Robin",
     "alcunha": "Filha do Demônio",
     "recompensa": "930.000.000 Berries",
-    "imagem": "robin.jpg",
+    "imagem": "CartazRobin.jpg",
     "descricao": "A arqueóloga do bando, única pessoa capaz de ler os Poneglyphs."
   },
   {
     "id": 8,
-    "nome": "Franky",
-    "alcunha": "O Ciborgue",
-    "recompensa": "394.000.000 Berries",
-    "imagem": "franky.jpg",
-    "descricao": "O carpinteiro naval que construiu o Thousand Sunny."
+    "nome": "Miss Valentine",
+    "alcunha": "Mikita",
+    "recompensa": "N/A",
+    "imagem": "cartazValentine.jpg",
+    "descricao": "Agente da Baroque Works que possui a Kilo Kilo no Mi, permitindo alterar seu peso de 1 a 10.000 quilos."
   },
   {
     "id": 9,
-    "nome": "Brook",
-    "alcunha": "Soul King",
-    "recompensa": "383.000.000 Berries",
-    "imagem": "brook.jpg",
-    "descricao": "O músico do bando, um esqueleto que voltou à vida graças à Yomi Yomi no Mi."
+    "nome": "Nefertari Vivi",
+    "alcunha": "Princesa de Alabasta",
+    "recompensa": "N/A",
+    "imagem": "cartazVivi.jpg",
+    "descricao": "Princesa do reino de Alabasta que lutou ao lado dos Chapéus de Palha para salvar seu país da organização Baroque Works."
   },
   {
     "id": 10,
-    "nome": "Jinbe",
-    "alcunha": "Cavaleiro do Mar",
-    "recompensa": "1.100.000.000 Berries",
-    "imagem": "jinbe.jpg",
-    "descricao": "O timoneiro do bando e mestre do Karatê Homem-Peixe."
-  },
-  {
-    "id": 11,
     "nome": "Buggy",
     "alcunha": "O Palhaço Estrela",
     "recompensa": "3.189.000.000 Berries",
-    "imagem": "buggy.jpg",
+    "imagem": "cartazBuggy.jpg",
     "descricao": "Um dos atuais Imperadores do Mar e líder da Cross Guild."
   },
   {
+    "id": 11,
+    "nome": "Mr. 3",
+    "alcunha": "Galdino",
+    "recompensa": "24.000.000 Berries",
+    "imagem": "cartazMr3.jpg",
+    "descricao": "Agente da Baroque Works que possui a Doru Doru no Mi, permitindo criar e controlar cera, usando-a para armadilhas e construções."
+  },
+  {
     "id": 12,
-    "nome": "Shanks",
-    "alcunha": "O Ruivo",
-    "recompensa": "4.048.900.000 Berries",
-    "imagem": "shanks.jpg",
-    "descricao": "O Imperador que inspirou Luffy a se tornar um pirata."
+    "nome": "Mr. 9",
+    "alcunha": "Mr. 9",
+    "recompensa": "N/A",
+    "imagem": "cartazMr9.jpg",
+    "descricao": "Agente da Baroque Works que luta usando um par de tacos de beisebol, conhecido por seu estilo acrobático e trabalho em dupla com Miss Monday."
   }
 ]
